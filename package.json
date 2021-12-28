@@ -1,6 +1,6 @@
 {
   "name": "ws2mqtt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A WebSocket proxy to an MQTT broker backend.",
   "main": "./bin/ws2mqtt.js",
   "bin": {
@@ -20,11 +20,9 @@
   "dependencies": {
     "mqtt": "^4.3.1",
     "pino": "^7.6.2",
+    "pino-pretty": "^7.3.0",
     "ws": "^8.4.0",
     "yargs": "^17.3.1"
-  },
-  "devDependencies": {
-    "pino-pretty": "^7.3.0"
   },
   "directories": {
     "lib": "lib"
