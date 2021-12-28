@@ -1,6 +1,6 @@
 {
   "name": "ws2mqtt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A WebSocket proxy to an MQTT broker backend.",
   "main": "./bin/ws2mqtt.js",
   "bin": {

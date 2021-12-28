@@ -13,7 +13,7 @@ npm install -g ws2mqtt
 Run a WebSocket server that proxies messages to an MQTT broker.
 
 ```
-ws2mqtt.js [-h <websocket-host>] [-p <websocket-port>] [-c <mqtt-broker-url>]
+ws2mqtt [-h <websocket-host>] [-p <websocket-port>] [-c <mqtt-broker-url>]
 [--debug]
 
 Options:
